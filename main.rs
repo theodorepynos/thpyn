@@ -1,5 +1,5 @@
 fn main() {
-  println!("ok.");
+  println!("Specificationa for ainu-1.0:");
 }
 
 
