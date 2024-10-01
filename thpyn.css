@@ -17,6 +17,10 @@ body {
   position: relative;
 }
 
+#topnav #myLinks {
+  display: none;
+}
+
 .topnav a {
   color: white;
   padding: 14px 16px;
