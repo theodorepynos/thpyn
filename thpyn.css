@@ -1,35 +1,44 @@
-/* This is a single-line comment */
-
-html {
-  font-size: 1em;
-}
-
-h1 {
-  font-size: 2rem;
-}
-
-h2 {
-  font-size: 1rem;
-}
-
-p {
-  font-size: 0.5rem;
-}
-
-@media (min-width: 1200px;) {
-  h1 {
-    font-size: 4rem;
-  }
-  h2 {
-    font-size: 2rem;
-  }
-  p {
-    font-size: 1rem;
-  }
-}
-
 body {
-  background-color: #FAD5A5;
-  font-family: Garamond, serif;
-  color: #252019;
+  font-family: Garamond;
+}
+
+.mobile-container {
+  max-width: 480px;
+  margin: auto;
+  background-color: #555;
+  height: 500px;
+  color: white;
+  border-radius: 10px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  background-color: #04AA6D;
+  color: white;
 }
