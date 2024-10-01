@@ -8,24 +8,26 @@ h1 {
   font-size: 2rem;
 }
 
+h2 {
+  font-size: 1rem;
+}
+
+p {
+  font-size: 0.5rem;
+}
+
 @media (min-width: 1200px;) {
   h1 {
     font-size: 4rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  p {
+    font-size: 1rem;
   }
 }
 
 body {
   background-color: #FAD5A5;
-}
-
-h3 {
-    font-size: 9vw;
-}
-
-p {
-  font-size: 8vw;
-}
-
-li {
-  font-size: 8vw;
 }
