@@ -1,5 +1,8 @@
-function getBaseLog(x, y) {
-  return Math.log(y) / Math.log(x);
+function getBaseLog() {
+  var x = document.getElementById("myLinks);
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
 }
-console.log(getBaseLog(2, 8));
-console.log(getBaseLog(5, 625));
